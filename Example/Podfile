@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WROCKit_Example' do
+  pod 'WROCKit', :path => '../'
+
+  target 'WROCKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
